@@ -1,6 +1,11 @@
 # star-notary-project-erc-721
 star-notary-project-erc-721
 
+## Notes
+Contract Name: PriteshToken
+Contract Symbol: PTC
+Rinkeby Contract Address: 0x8cFc72cDE833F46133E80A13F29ed5f788D39Cd1
+
 ### Versions
 Truffle v5.0.2 (core: 5.0.2)
 Solidity v0.5.0 (solc-js)
@@ -15,7 +20,15 @@ truffle develop
 > migrate --reset
 ```
 
-Web Application
+### Rinkeby
+```
+truffle migrate --reset --network rinkeby 
+Rinkeby Contract Address: 0x8cFc72cDE833F46133E80A13F29ed5f788D39Cd1
+```
+
+
+
+### Web Application
 ```
 npm run dev
 http://localhost:8080 in browser
